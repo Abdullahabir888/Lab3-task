@@ -13,7 +13,7 @@ public class lab3 {
         // Initialize the WebDriver
         WebDriver driver = new ChromeDriver();
 
-        // Navigate to Restaurant360 login page
+        // Navigate to vite login page
         driver.get("http://localhost:5173/login");
         driver.manage().window().maximize();
 
@@ -40,6 +40,7 @@ public class lab3 {
  driver.quit();
 
 }
+
 
 
 
