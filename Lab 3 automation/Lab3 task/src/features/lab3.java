@@ -14,7 +14,7 @@ public class lab3 {
         WebDriver driver = new ChromeDriver();
 
         // Navigate to Restaurant360 login page
-        driver.get("");
+        driver.get("http://localhost:5173/login");
         driver.manage().window().maximize();
 
         // Locate the email/username input field and enter your credential
@@ -40,5 +40,6 @@ public class lab3 {
  driver.quit();
 
 }
+
 
 
