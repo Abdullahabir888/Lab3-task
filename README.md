@@ -1,2 +1,2 @@
 # Lab3-task
-Test assignment 
+You can find all the automotation code under src 
